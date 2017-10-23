@@ -24,7 +24,7 @@ class TweetSearchAPIHelper: NSObject {
         var clientError: NSError?
         
         let langKey = ((Locale.current as NSLocale).object(forKey: NSLocale.Key.languageCode) as! String)
-        let params = isLocalLanguage ? ["q": "#" + "\(hashtag)", "result_type": "recent", "lang": langKey, "count": dataBlockCount] : ["q": "#apple", "result_type": "recent", "count": dataBlockCount]
+        let params = isLocalLanguage ? ["q": "#" + "\(hashtag)", "result_type": "recent", "lang": langKey, "count": dataBlockCount] : ["q": "#" + "\(hashtag)", "result_type": "recent", "count": dataBlockCount]
         
         let request = client.urlRequest(withMethod: "GET", url: searchAPIEndPoint + (nextResults != nil ? nextResults! : ""), parameters: params, error: &clientError)
         client.sendTwitterRequest(request) { (response, data, connectionError) -> Void in
@@ -66,9 +66,7 @@ class TweetSearchAPIHelper: NSObject {
         let client = TWTRAPIClient()
         var clientError: NSError?
         
-        let params = ["q": "from:" + "\(user)",
-                      "result_type": "recent",
-                      "count": dataBlockCount]
+        let params = ["q": "from:" + "\(user)", "result_type": "recent", "count": dataBlockCount]
         
         let request = client.urlRequest(withMethod: "GET", url: searchAPIEndPoint + (nextResults != nil ? nextResults! : ""), parameters: params, error: &clientError)
         client.sendTwitterRequest(request) { (response, data, connectionError) -> Void in
