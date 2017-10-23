@@ -33,36 +33,36 @@
                             <constraint firstAttribute="width" secondItem="Iue-WT-BLJ" secondAttribute="height" multiplier="1:1" id="oOP-Zu-HUR"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gt-nv-3cQ">
-                        <rect key="frame" x="66" y="8" width="246" height="14"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gt-nv-3cQ">
+                        <rect key="frame" x="66" y="8" width="246" height="0.0"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                         <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSJ-xW-6tP">
-                        <rect key="frame" x="66" y="30" width="246" height="17"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSJ-xW-6tP">
+                        <rect key="frame" x="66" y="16" width="246" height="0.0"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iYv-yW-Hzb">
-                        <rect key="frame" x="66" y="55" width="246" height="95"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iYv-yW-Hzb">
+                        <rect key="frame" x="66" y="24" width="246" height="126"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yhy-dg-Vdw">
-                        <rect key="frame" x="66" y="158" width="18" height="0.0"/>
+                        <rect key="frame" x="66" y="158" width="20" height="0.0"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="favorite.png" translatesAutoresizingMaskIntoConstraints="NO" id="lgf-Ws-3n4">
-                                <rect key="frame" x="0.0" y="-7.5" width="14" height="14"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="retweet.png" translatesAutoresizingMaskIntoConstraints="NO" id="lgf-Ws-3n4">
+                                <rect key="frame" x="0.0" y="-8.5" width="16" height="16"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="14" id="G5m-71-kDZ"/>
+                                    <constraint firstAttribute="height" constant="16" id="G5m-71-kDZ"/>
                                     <constraint firstAttribute="width" secondItem="lgf-Ws-3n4" secondAttribute="height" multiplier="1:1" id="p7d-PY-jrB"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U3N-ZI-PvN">
-                                <rect key="frame" x="18" y="0.0" width="0.0" height="0.0"/>
+                                <rect key="frame" x="20" y="0.0" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -79,17 +79,17 @@
                         </constraints>
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qEH-bo-GAm">
-                        <rect key="frame" x="100" y="158" width="20" height="0.0"/>
+                        <rect key="frame" x="102" y="158" width="18" height="0.0"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="retweet.png" translatesAutoresizingMaskIntoConstraints="NO" id="SSS-eJ-JeL">
-                                <rect key="frame" x="0.0" y="-8.5" width="16" height="16"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="favorite.png" translatesAutoresizingMaskIntoConstraints="NO" id="SSS-eJ-JeL">
+                                <rect key="frame" x="0.0" y="-7.5" width="14" height="14"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="16" id="mXx-T8-hQw"/>
+                                    <constraint firstAttribute="height" constant="14" id="mXx-T8-hQw"/>
                                     <constraint firstAttribute="width" secondItem="SSS-eJ-JeL" secondAttribute="height" multiplier="1:1" id="vjV-9N-QRc"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g3Q-SN-Jen">
-                                <rect key="frame" x="20" y="0.0" width="0.0" height="0.0"/>
+                                <rect key="frame" x="18" y="0.0" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -128,8 +128,8 @@
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <connections>
                 <outlet property="retweetedLabel" destination="3gt-nv-3cQ" id="yo0-cb-3hc"/>
-                <outlet property="tweetFavoriteCountLabel" destination="U3N-ZI-PvN" id="5e4-xS-RWK"/>
-                <outlet property="tweetRetweetCountLabel" destination="g3Q-SN-Jen" id="0I7-3m-Ecb"/>
+                <outlet property="tweetFavoriteCountLabel" destination="g3Q-SN-Jen" id="sgS-YP-i6l"/>
+                <outlet property="tweetRetweetCountLabel" destination="U3N-ZI-PvN" id="ZEN-AK-2qo"/>
                 <outlet property="tweetTextLabel" destination="iYv-yW-Hzb" id="tvt-vM-Vc5"/>
                 <outlet property="userProfileImageView" destination="Iue-WT-BLJ" id="hds-dg-fAp"/>
                 <outlet property="userTweetInfoLabel" destination="gSJ-xW-6tP" id="BtP-z6-4qG"/>
