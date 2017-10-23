@@ -24,6 +24,9 @@
 		AC18171B1F9E51FA006B5156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1817191F9E51FA006B5156 /* LaunchScreen.storyboard */; };
 		AC1817261F9E51FA006B5156 /* TweetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1817251F9E51FA006B5156 /* TweetsTests.swift */; };
 		AC1817311F9E51FA006B5156 /* TweetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1817301F9E51FA006B5156 /* TweetsUITests.swift */; };
+		AC2D09CD1F9E9111004D4111 /* favorite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2D09CA1F9E9111004D4111 /* favorite@2x.png */; };
+		AC2D09CE1F9E9111004D4111 /* favorite@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2D09CB1F9E9111004D4111 /* favorite@3x.png */; };
+		AC2D09CF1F9E9111004D4111 /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2D09CC1F9E9111004D4111 /* favorite.png */; };
 		AC2D5F451F9E5B1200656B01 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2D5F441F9E5B1200656B01 /* LoadingView.swift */; };
 		B149C7552DE979339CC19201 /* Pods_TweetsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F27838E0FFED172E706882 /* Pods_TweetsTests.framework */; };
 /* End PBXBuildFile section */
@@ -72,6 +75,9 @@
 		AC18172C1F9E51FA006B5156 /* TweetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TweetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1817301F9E51FA006B5156 /* TweetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsUITests.swift; sourceTree = "<group>"; };
 		AC1817321F9E51FA006B5156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2D09CA1F9E9111004D4111 /* favorite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favorite@2x.png"; sourceTree = "<group>"; };
+		AC2D09CB1F9E9111004D4111 /* favorite@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favorite@3x.png"; sourceTree = "<group>"; };
+		AC2D09CC1F9E9111004D4111 /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite.png; sourceTree = "<group>"; };
 		AC2D5F441F9E5B1200656B01 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		B41CBEF9DB9C0FB104F51B46 /* Pods-TweetsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweetsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TweetsUITests/Pods-TweetsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E786A1DB0B783A89730E4F75 /* Pods-TweetsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TweetsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TweetsUITests/Pods-TweetsUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -160,6 +166,9 @@
 			children = (
 				AC2D5F441F9E5B1200656B01 /* LoadingView.swift */,
 				AC018FD41F9E59B3007FF7F8 /* UtilityMethods.swift */,
+				AC2D09CC1F9E9111004D4111 /* favorite.png */,
+				AC2D09CA1F9E9111004D4111 /* favorite@2x.png */,
+				AC2D09CB1F9E9111004D4111 /* favorite@3x.png */,
 				AC018FCE1F9E5808007FF7F8 /* retweet.png */,
 				AC018FCD1F9E5808007FF7F8 /* retweet@2x.png */,
 				AC018FCC1F9E5808007FF7F8 /* retweet@3x.png */,
@@ -349,9 +358,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC18171B1F9E51FA006B5156 /* LaunchScreen.storyboard in Resources */,
+				AC2D09CF1F9E9111004D4111 /* favorite.png in Resources */,
 				AC1817181F9E51FA006B5156 /* Assets.xcassets in Resources */,
 				AC1817161F9E51FA006B5156 /* Main.storyboard in Resources */,
 				AC018FC91F9E57A2007FF7F8 /* TweetTableViewCell.xib in Resources */,
+				AC2D09CD1F9E9111004D4111 /* favorite@2x.png in Resources */,
+				AC2D09CE1F9E9111004D4111 /* favorite@3x.png in Resources */,
 				AC018FD11F9E5808007FF7F8 /* retweet.png in Resources */,
 				AC018FCF1F9E5808007FF7F8 /* retweet@3x.png in Resources */,
 				AC018FD01F9E5808007FF7F8 /* retweet@2x.png in Resources */,

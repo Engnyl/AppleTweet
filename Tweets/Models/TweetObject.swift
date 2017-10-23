@@ -13,6 +13,7 @@ class TweetObject: NSObject {
     var tweetText: String!
     var tweetCreatedAt: String!
     var tweetRetweetCount: Int!
+    var tweetFavoriteCount: Int!
     var userName: String!
     var userScreenName: String!
     var userProfileImageURL: String!
@@ -38,6 +39,7 @@ class TweetObject: NSObject {
         tweetText = statusData["text"] as! String
         tweetCreatedAt = convertTimestamp(statusData["created_at"] as! String)
         tweetRetweetCount = statusData["retweet_count"] as! Int
+        tweetFavoriteCount = statusData["favorite_count"] as! Int
     }
     
     func getRetweetedUserName() -> String? {
@@ -54,6 +56,10 @@ class TweetObject: NSObject {
     
     func getTweetRetweetCount() -> Int {
         return tweetRetweetCount
+    }
+    
+    func getTweetFavoriteCount() -> Int {
+        return tweetFavoriteCount
     }
     
     func getUserName() -> String {

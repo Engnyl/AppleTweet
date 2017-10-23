@@ -16,6 +16,7 @@ class TweetTableViewCell: UITableViewCell {
     @IBOutlet weak var userTweetInfoLabelTopConstraint: NSLayoutConstraint!
     @IBOutlet weak var tweetTextLabel: UILabel!
     @IBOutlet weak var tweetRetweetCountLabel: UILabel!
+    @IBOutlet weak var tweetFavoriteCountLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -29,6 +30,7 @@ class TweetTableViewCell: UITableViewCell {
         userTweetInfoLabel.text = nil
         tweetTextLabel.text = nil
         tweetRetweetCountLabel.text = nil
+        tweetFavoriteCountLabel.text = nil
         
         if let userProfileImageURL: URL = URL(string: tweetObject.getUserProfileImageURL()) {
             userProfileImageView.sd_setImage(with: userProfileImageURL, placeholderImage: nil, options: [], completed: { (image: UIImage?, error: Error?, cacheType: SDImageCacheType, imageURL: URL?) in
@@ -62,5 +64,6 @@ class TweetTableViewCell: UITableViewCell {
         
         tweetTextLabel.text = tweetObject.getTweetText()
         tweetRetweetCountLabel.text = String(tweetObject.getTweetRetweetCount())
+        tweetFavoriteCountLabel.text = String(tweetObject.getTweetFavoriteCount())
     }
 }
